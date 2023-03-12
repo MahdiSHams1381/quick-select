@@ -10,7 +10,10 @@ namespace quick_select
         static void Main(string[] args)
         {
             //notic the k should be k=k-1
-            Console.WriteLine(k_LowerElement(int[] array = { 4 ,5,1,3,7,9}, 5));
+            //test case = 4,5,1,3,7,9
+            //result
+            int[] array = { 4,5,1,3,7,9};
+            Console.WriteLine(k_LowerElement(array , 5));
         }
         //sowap tow number in array with index of them
         public static void sowap(int[] array, int index1, int index2)
